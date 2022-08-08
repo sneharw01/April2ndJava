@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-08T00:27:33 IST" name="MainSuite" finished-at="2022-08-08T00:27:54 IST" duration-ms="20924">
+    <groups>
+    </groups>
+    <test started-at="2022-08-08T00:27:33 IST" name="ChromeTest" finished-at="2022-08-08T00:27:54 IST" duration-ms="20924">
+      <class name="com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality@2b91004a]" started-at="2022-08-08T00:27:49 IST" name="beforeClass" finished-at="2022-08-08T00:27:52 IST" duration-ms="3560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality@2b91004a]" started-at="2022-08-08T00:27:52 IST" name="beforeMethod" finished-at="2022-08-08T00:27:53 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyallproducts()[pri:0, instance:com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality@2b91004a]" started-at="2022-08-08T00:27:53 IST" name="verifyallproducts" finished-at="2022-08-08T00:27:53 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyallproducts -->
+        <test-method is-config="true" signature="logoutMethod()[pri:0, instance:com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality@2b91004a]" started-at="2022-08-08T00:27:53 IST" name="logoutMethod" finished-at="2022-08-08T00:27:53 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality@2b91004a]" started-at="2022-08-08T00:27:53 IST" name="browserClosed" finished-at="2022-08-08T00:27:54 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosed -->
+      </class> <!-- com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality -->
+      <class name="com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality@56cdfb3b]" started-at="2022-08-08T00:27:44 IST" name="beforeClass" finished-at="2022-08-08T00:27:48 IST" duration-ms="3560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality@56cdfb3b]" started-at="2022-08-08T00:27:48 IST" name="beforeMethod" finished-at="2022-08-08T00:27:48 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyaddtocart()[pri:0, instance:com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality@56cdfb3b]" started-at="2022-08-08T00:27:48 IST" name="verifyaddtocart" finished-at="2022-08-08T00:27:48 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddtocart -->
+        <test-method is-config="true" signature="logoutMethod()[pri:0, instance:com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality@56cdfb3b]" started-at="2022-08-08T00:27:48 IST" name="logoutMethod" finished-at="2022-08-08T00:27:49 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality@56cdfb3b]" started-at="2022-08-08T00:27:49 IST" name="browserClosed" finished-at="2022-08-08T00:27:49 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosed -->
+      </class> <!-- com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality -->
+      <class name="com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality@4229bb3f]" started-at="2022-08-08T00:27:38 IST" name="beforeClass" finished-at="2022-08-08T00:27:44 IST" duration-ms="5980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality@4229bb3f]" started-at="2022-08-08T00:27:44 IST" name="beforeMethod" finished-at="2022-08-08T00:27:44 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifylogout()[pri:0, instance:com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality@4229bb3f]" started-at="2022-08-08T00:27:44 IST" name="verifylogout" finished-at="2022-08-08T00:27:44 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogout -->
+        <test-method is-config="true" signature="logoutMethod()[pri:0, instance:com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality@4229bb3f]" started-at="2022-08-08T00:27:44 IST" name="logoutMethod" finished-at="2022-08-08T00:27:44 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality@4229bb3f]" started-at="2022-08-08T00:27:44 IST" name="browserClosed" finished-at="2022-08-08T00:27:44 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosed -->
+      </class> <!-- com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality -->
+      <class name="com.SauceDemoTestClasses.TC01VerifyLoginFunctionality">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.SauceDemoTestClasses.TC01VerifyLoginFunctionality@4d0f2471]" started-at="2022-08-08T00:27:33 IST" name="beforeClass" finished-at="2022-08-08T00:27:37 IST" duration-ms="4024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.SauceDemoTestClasses.TC01VerifyLoginFunctionality@4d0f2471]" started-at="2022-08-08T00:27:37 IST" name="beforeMethod" finished-at="2022-08-08T00:27:37 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifylogin()[pri:0, instance:com.SauceDemoTestClasses.TC01VerifyLoginFunctionality@4d0f2471]" started-at="2022-08-08T00:27:37 IST" name="verifylogin" finished-at="2022-08-08T00:27:37 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="logoutMethod()[pri:0, instance:com.SauceDemoTestClasses.TC01VerifyLoginFunctionality@4d0f2471]" started-at="2022-08-08T00:27:37 IST" name="logoutMethod" finished-at="2022-08-08T00:27:37 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:com.SauceDemoTestClasses.TC01VerifyLoginFunctionality@4d0f2471]" started-at="2022-08-08T00:27:37 IST" name="browserClosed" finished-at="2022-08-08T00:27:38 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosed -->
+      </class> <!-- com.SauceDemoTestClasses.TC01VerifyLoginFunctionality -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- MainSuite -->
+</testng-results>

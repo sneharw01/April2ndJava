@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MainSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality">
+        <methods>
+          <include name="verifyallproducts"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="browserClosed"/>
+        </methods>
+      </class> <!-- com.SauceDemoTestClasses.TC04VerifyAllProductFunctionality -->
+      <class name="com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifylogout"/>
+          <include name="browserClosed"/>
+        </methods>
+      </class> <!-- com.SauceDemoTestClasses.TC02VerifyLogOutFunctionality -->
+      <class name="com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality">
+        <methods>
+          <include name="verifyaddtocart"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="browserClosed"/>
+        </methods>
+      </class> <!-- com.SauceDemoTestClasses.TC03VerifyAddToCartFunctionality -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [MainSuite] -->
